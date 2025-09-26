@@ -9,4 +9,9 @@ class AppTexts{
 
   static const String nextButton = "Next";
   static const String skipButton = "Skip";
+
+  static const String locationTitle = "Welcome! Your Smart Travel Alarm";
+  static const String locationSubTitle = "Stay on schedule and enjoy every moment of your journey.";
+  static const String locationButton = "Use Current Location";
+  static const String locationHomeButton = "Home";
 }

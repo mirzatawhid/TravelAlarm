@@ -1,4 +1,5 @@
 import 'package:get/get_navigation/src/routes/get_route.dart';
+import 'package:travelalarm/features/alarm/alarm_screen.dart';
 import 'package:travelalarm/features/location/location_screen.dart';
 import 'package:travelalarm/features/onBoarding/onboarding_screen.dart';
 
@@ -8,11 +9,15 @@ class AppPages {
   static final routes = [
     GetPage(
       name: Routes.onBoarding,
-      page: () => const OnboardingScreen(),
+      page: () =>  OnboardingScreen(),
     ),
     GetPage(
       name: Routes.location,
-      page: () => const LocationScreen(),
+      page: () => LocationScreen(),
+    ),
+    GetPage(
+      name: Routes.alarm,
+      page: () => AlarmScreen(),
     ),
   ];
 }
