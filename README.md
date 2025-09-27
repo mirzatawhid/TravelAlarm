@@ -39,11 +39,13 @@ This is a Flutter mobile app for Travellers. The app guides users through onboar
 
 ## Screenshots
 
-![Onboarding 1](screenshots/Screenshot_onboarding1.jpg)  
-![Onboarding 2](screenshots/Screenshot_onboarding2.jpg)  
-![Onboarding 3](screenshots/Screenshot_onboarding3.jpg)
-![Location](screenshots/Screenshot_location.jpg)
-![Alarm List](screenshots/Screenshot_alarm.jpg)
+## App Screenshots
+
+| Onboarding 1 | Onboarding 2 | Onboarding 3 |
+| :---: | :---: | :---: |
+| <img src="screenshots/Screenshot_onboarding1.jpg" alt="Onboarding Screen 1" width="150"/> | <img src="screenshots/Screenshot_onboarding2.jpg" alt="Onboarding Screen 2" width="150"/> | <img src="screenshots/Screenshot_onboarding3.jpg" alt="Onboarding Screen 3" width="150"/> |
+| **Location Setup** | **Alarm List** | |
+| <img src="screenshots/Screenshot_location.jpg" alt="Location Setup Screen" width="150"/> | <img src="screenshots/Screenshot_alarm.jpg" alt="Alarm List Screen" width="150"/> |  |
 
 
 ## **Demo Video**
