@@ -14,4 +14,7 @@ class AppTexts{
   static const String locationSubTitle = "Stay on schedule and enjoy every moment of your journey.";
   static const String locationButton = "Use Current Location";
   static const String locationHomeButton = "Home";
+
+  static const String alarmTitle = "Selected Location";
+  static const String alarmSubTitle = "Alarms";
 }

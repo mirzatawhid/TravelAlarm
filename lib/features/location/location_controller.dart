@@ -6,8 +6,10 @@ import 'package:permission_handler/permission_handler.dart';
 import 'Location_model.dart';
 
 class LocationController extends GetxController {
+  static LocationController get instance => Get.find<LocationController>();
   Rx<LocationModel?> currentLocation = Rx<LocationModel?>(null);
   Rx<String> currentAddress = ''.obs;
+  Rx<String> currentCity = ''.obs;
   RxBool isLoading = false.obs;
   RxString error = ''.obs;
 
@@ -72,6 +74,7 @@ class LocationController extends GetxController {
 
       if (placemarks.isNotEmpty) {
         Placemark place = placemarks.first;
+        currentCity.value = '${place.administrativeArea}, ${place.country}';
         currentAddress.value =
         '${place.name}, ${place.street}, ${place.subLocality}, ${place.locality}, ${place.administrativeArea}, ${place.country}';
       } else {
