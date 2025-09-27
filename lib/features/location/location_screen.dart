@@ -52,8 +52,7 @@ class LocationScreen extends StatelessWidget {
                 radius: DeviceUtils.getScreenWidth(context) / 2,
                 backgroundImage: AssetImage(AppMedia.locationMedia),
               ),
-              SizedBox(height: 8),
-              Text(controller.currentAddress.value),
+              Text(controller.currentAddress.value, textAlign: TextAlign.center,),
               SizedBox(height: 8,),
               OutlinedButton(
                 onPressed: () {controller.fetchLocation();},

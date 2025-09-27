@@ -66,9 +66,6 @@ class AlarmScreen extends StatelessWidget {
               textAlign: TextAlign.start,
             ),
             Obx(() {
-              if (controller.alarms.isEmpty) {
-                return const CircularProgressIndicator(color: AppColor.primary,);
-              }
               return Expanded(
                 child: ListView.builder(
                   itemCount: controller.alarms.length,
